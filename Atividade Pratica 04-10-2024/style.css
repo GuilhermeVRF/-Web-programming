@@ -8,3 +8,14 @@ body{
     margin: 0 auto;
     padding: 0;
 }
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+th{
+    border: 1px solid black;
+}

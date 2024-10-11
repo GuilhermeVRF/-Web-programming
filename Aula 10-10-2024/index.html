@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">
+    <head>
+        <title>HTML 10/10/2024</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <h1>Formatação de texto com HTML</h1>
+        <p>Existem diversas formas de formatar um texto em HTML, como por exemplo:</p>
+        <ul>
+            <li><strong>h1 a h6</strong>: Cria <em>títulos em negrito</em> no texto, variando de tamanho de 1 a 6.
+                Quanto menor o número, maior o título.
+            </li>
+
+            <hr>
+
+            <li>
+                <strong>p</strong>: Cria <em>parágrafos</em> no texto, sendo que a cada chamada da tag é
+                criado um novo parágrafo a partir de uma quebra de linha
+            </li>
+
+            <hr>
+
+            <li>
+                <strong>br</strong>: Cria uma <em>quebra de linha</em> no texto, sem a necessidade de criar um novo parágrafo
+            </li>
+
+            <hr>
+
+            <li>
+                <strong>strong</strong>: Cria um texto em <em>negrito</em>
+            </li>
+
+            <hr>
+
+            <li>
+                <strong>em</strong>: Cria um texto em <em>itálico</em>, sendo utilizado para dar enfâse a uma palavra
+                ou aletar aousuário de uma palavra não familiar a ele.
+            </li>
+
+            <hr>
+
+            <li>
+                <strong>hr</strong>: Cria uma <em>linha horizontal</em> no texto, separando-o em seções
+            </li>
+
+            <hr>
+        </ul>   
+            
+        <section class="section-html-entities">
+            <div class="div-html-entities">
+                <h1><u>Ícones padrão do HTML</u></h1>
+                <p>Site que lista os <a href="https://www.toptal.com/designers/htmlarrows/symbols/">HTML Character Entities</a></p>
+                <table class="table-html-entities">
+                    <thead>
+                        <tr>
+                            <th>Ícone</th>
+                            <th>Nome</th>
+                            <th>Entidade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&#10003;</td>
+                            <td>Checkmark</td>
+                            <td>&amp;#10003;</td>
+                        </tr>
+                        <tr>
+                            <td>&#10004;</td>
+                            <td>Heavy Checkmark</td>
+                            <td>&amp;#10004;</td>
+                        </tr>
+                        <tr>
+                            <td>&#10005;</td>
+                            <td>Balot X</td>
+                            <td>&amp;#10005;</td>
+                        </tr>
+                        <tr>
+                            <td>&#10006;</td>
+                            <td>Heavy Balot X</td>
+                            <td>&amp;#10006;</td>
+                        </tr>
+                        <tr>
+                            <td>&#10007;</td>
+                            <td>Ballot X</td>
+                            <td>&amp;#10007;</td>
+                        </tr>
+                        <tr>
+                            <td>&copy;</td>
+                            <td>Coypright</td>
+                            <td>&amp;#10008;</td>   
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="div-html-entities">
+                <div>
+                <h1><u>Formulário de adição de ícones a tabela</u></h1>
+                <p>Por meio de JS esse formulário adiciona novas linhas a tabela</p>
+                
+                <form class="form-html-entities">
+                    <label for="input-icon">Ícone</label>
+                    <input type="text" id="input-icone" placeholder="&000;">
+    
+                    <label for="input-name">Nome</label>
+                    <input type="text" id="input-name" placeholder="Ícone 0">
+    
+                    <label for="input-entity">Entidade</label>
+                    <input type="text" id="input-entity" placeholder="&amp;&000">
+    
+                    <label for="input-color">Cor do ícone</label>
+                    <select>
+                        <option value="yellow">Amarelo</option>
+                        <option value="blue">Azul</option>
+                        <option value="red">Vermelho</option>
+                        <option value="green">Verde</option>
+                    </select>
+
+                    <input class="btn-submit" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+
+        <hr>
+    </body>
+
+</html>
