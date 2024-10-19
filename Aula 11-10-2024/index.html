@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - 11/10/2024</title>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <td>
+                <h1>Formulário 1</h1>
+                <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    <label for id="select">Select</label>
+                    <select id="select"></select>
+
+                    <label for="Range"></label>
+                    <input type="range" id="range">
+
+                    <input type="range" id="a" value="50">
+                    <input type="range" id="b" value="50">
+
+                    <label for="output">Output</label>
+                    <output name="x" id="output" for="a b"></output>
+                    <legend><em>Formulário com tags desconhecidas</em></legend>
+                </form>
+            </td>
+            <td>
+                <form>
+                    <input list="browsers">
+                    <datalist id="browsers">
+                        <option value="Edge">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                    </datalist>
+                </form>
+            </td>
+        </tbody>
+    </table>
+</body>
+
+</html>

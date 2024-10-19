@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main/main.css">
+    <link rel="stylesheet" href="./assets/css/task/create.css">
+    <script src="./assets/js/task/create.js" defer></script>
+    <title>Aula 18/10/2024</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="center">Criar Tarefa</h2>
+        <form class="center lightGrayBorder" id="createTaskForm">
+            <div class="form-group">
+                <label for="taskName">Nome</label>
+                <input type="text" name="taskName" id="taskName" placeholder="Nome da tarefa" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="startingDate">Data de início</label>
+                <input type="date" name="startingDate" id="startingDate" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="deliveryDate">Data de conclusão</label>
+                <input type="date" name="deliveryDate" id="deliveryDate" class="form-control">
+            </div>
+            
+            <div class="form-group">
+                <label for="desc">Descrição</label>
+                <textarea name="desc" id="desc" class="form-control" placeholder="Decrição da tarefa"></textarea>
+            </div>
+
+            <div class="formBtns">
+                <input type="reset" value="Resetar campos" class="btn btn-danger">
+                <input type="submit" value="Enviar" class="btn btn-success" autofocus>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

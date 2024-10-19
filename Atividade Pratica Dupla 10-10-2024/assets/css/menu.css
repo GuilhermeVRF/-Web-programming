@@ -1,0 +1,10 @@
+.container_menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container_menu h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
